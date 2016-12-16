@@ -1,16 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml.Linq;
-using Word = Microsoft.Office.Interop.Word;
-using Office = Microsoft.Office.Core;
-using Microsoft.Office.Tools.Word;
-
-namespace DecoSpecAddinCS
+﻿namespace DecoSpecAddinCS
 {
     public partial class ThisAddIn
     {
+
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
         }
@@ -18,6 +10,8 @@ namespace DecoSpecAddinCS
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
         }
+
+
 
         #region VSTO generated code
 
