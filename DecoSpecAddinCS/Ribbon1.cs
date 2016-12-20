@@ -11,7 +11,7 @@ namespace DecoSpecAddinCS
 
         }
 
-        private void button1_Click(object sender, RibbonControlEventArgs e)
+        private void Button1_Click(object sender, RibbonControlEventArgs e)
         {
             try
             {
@@ -24,7 +24,7 @@ namespace DecoSpecAddinCS
 
         }
 
-        private void button2_Click(object sender, RibbonControlEventArgs e)
+        private void Button2_Click(object sender, RibbonControlEventArgs e)
         {
             try
             {
@@ -36,7 +36,7 @@ namespace DecoSpecAddinCS
             }
         }
 
-        private void button3_Click(object sender, RibbonControlEventArgs e)
+        private void Button3_Click(object sender, RibbonControlEventArgs e)
         {
             try
             {
@@ -49,7 +49,7 @@ namespace DecoSpecAddinCS
             }
         }
 
-        private void button1_Click_1(object sender, RibbonControlEventArgs e)
+        private void Button1_Click_1(object sender, RibbonControlEventArgs e)
         {
             try
             {
@@ -63,12 +63,7 @@ namespace DecoSpecAddinCS
 
         }
 
-        private void button4_Click(object sender, RibbonControlEventArgs e)
-        {
-
-        }
-
-        private void button4_Click_1(object sender, RibbonControlEventArgs e)
+        private void Button4_Click_1(object sender, RibbonControlEventArgs e)
         {
             var box = new AboutBox1();
             box.Show();

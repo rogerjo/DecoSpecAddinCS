@@ -72,7 +72,7 @@
             this.button3.Name = "button3";
             this.button3.OfficeImageId = "PensGallery";
             this.button3.ShowImage = true;
-            this.button3.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button3_Click);
+            this.button3.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Button3_Click);
             // 
             // button1
             // 
@@ -81,7 +81,7 @@
             this.button1.Label = "Save PDF && DOC to Desktop";
             this.button1.Name = "button1";
             this.button1.ShowImage = true;
-            this.button1.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click_1);
+            this.button1.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Button1_Click_1);
             // 
             // Actions
             // 
@@ -98,7 +98,7 @@
             this.ShowFormButton.OfficeImageId = "AccessFormWizard";
             this.ShowFormButton.ScreenTip = "Shows the form where you can fill in information in the Decoration Specification";
             this.ShowFormButton.ShowImage = true;
-            this.ShowFormButton.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button1_Click);
+            this.ShowFormButton.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Button1_Click);
             // 
             // button2
             // 
@@ -108,7 +108,7 @@
             this.button2.OfficeImageId = "ResetFormatting";
             this.button2.ScreenTip = "Removes all content from document";
             this.button2.ShowImage = true;
-            this.button2.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button2_Click);
+            this.button2.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Button2_Click);
             // 
             // group3
             // 
@@ -123,7 +123,7 @@
             this.button4.Name = "button4";
             this.button4.OfficeImageId = "Info";
             this.button4.ShowImage = true;
-            this.button4.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button4_Click_1);
+            this.button4.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Button4_Click_1);
             // 
             // Ribbon1
             // 
