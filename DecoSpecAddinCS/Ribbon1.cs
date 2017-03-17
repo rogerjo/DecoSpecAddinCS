@@ -68,5 +68,10 @@ namespace DecoSpecAddinCS
             var box = new AboutBox1();
             box.Show();
         }
+
+        private void button5_Click(object sender, RibbonControlEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://galaxis.axis.com/Handbooks/Windchill/Pages/decospechelp.aspx");
+        }
     }
 }

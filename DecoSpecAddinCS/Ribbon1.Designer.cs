@@ -44,6 +44,7 @@
             this.button2 = this.Factory.CreateRibbonButton();
             this.group3 = this.Factory.CreateRibbonGroup();
             this.button4 = this.Factory.CreateRibbonButton();
+            this.button5 = this.Factory.CreateRibbonButton();
             this.tab1.SuspendLayout();
             this.group2.SuspendLayout();
             this.Actions.SuspendLayout();
@@ -113,7 +114,8 @@
             // group3
             // 
             this.group3.Items.Add(this.button4);
-            this.group3.Label = "About";
+            this.group3.Items.Add(this.button5);
+            this.group3.Label = "About and Help";
             this.group3.Name = "group3";
             // 
             // button4
@@ -124,6 +126,15 @@
             this.button4.OfficeImageId = "Info";
             this.button4.ShowImage = true;
             this.button4.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.Button4_Click_1);
+            // 
+            // button5
+            // 
+            this.button5.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
+            this.button5.Label = "Help";
+            this.button5.Name = "button5";
+            this.button5.OfficeImageId = "Help";
+            this.button5.ShowImage = true;
+            this.button5.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.button5_Click);
             // 
             // Ribbon1
             // 
@@ -154,6 +165,7 @@
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group2;
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group3;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton button4;
+        internal Microsoft.Office.Tools.Ribbon.RibbonButton button5;
     }
 
     partial class ThisRibbonCollection
