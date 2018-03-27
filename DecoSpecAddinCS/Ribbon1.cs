@@ -71,7 +71,7 @@ namespace DecoSpecAddinCS
 
         private void button5_Click(object sender, RibbonControlEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://galaxis.axis.com/Handbooks/Windchill/Pages/decospechelp.aspx");
+            System.Diagnostics.Process.Start("https://galaxis.axis.com/sites/Handbooks/Windchill/Pages/decospechelp.aspx");
         }
     }
 }

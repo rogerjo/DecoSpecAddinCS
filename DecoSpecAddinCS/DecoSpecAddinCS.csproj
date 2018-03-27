@@ -34,10 +34,10 @@
     <PublishUrl>P:\decoration_specification\Installation\</PublishUrl>
     <InstallUrl>\\storage03\hw-apps\ptc\decoration_specification\Installation\</InstallUrl>
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.2.1.1</ApplicationVersion>
+    <ApplicationVersion>2.1.1.2</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
-    <UpdateEnabled>true</UpdateEnabled>
-    <UpdateInterval>4</UpdateInterval>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateInterval>0</UpdateInterval>
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
     <ProductName>Decoration Specification Add-In</ProductName>
     <PublisherName />
@@ -199,6 +199,8 @@
     <EmbeddedResource Include="Ribbon1.resx">
       <DependentUpon>Ribbon1.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DecoSpecAddinCS_TemporaryKey.pfx" />
+    <None Include="Key1.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -216,7 +218,6 @@
     <Compile Include="ThisAddIn.cs">
       <SubType>Code</SubType>
     </Compile>
-    <None Include="TempKey.pfx" />
     <None Include="ThisAddIn.Designer.xml">
       <DependentUpon>ThisAddIn.cs</DependentUpon>
     </None>
@@ -233,16 +234,16 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>DecoSpecAddinCS_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>DecoSpecAddinCS_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>ACB5B50180BE7179E031DBA8A3F46C4410D3BA40</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>82326231DBFA75B93560952066ED25DDDDCEA897</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>TempKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Key1.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
